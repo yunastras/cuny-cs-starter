@@ -22,24 +22,31 @@ These tools are essential for modern web development. Git + GitHub handle versio
     - By default, a forked repository has the same name and description as the original repository. You may accept the defaults or change the name/description as desired.
 3. Click **Create fork** to copy the repository to your personal GitHub account.
 
-### Step 2: Install VS Code, Git, and Clone Repository
+### Step 2: Install VS Code and Git to Local Machine
 
-4. [Install VS Code](https://code.visualstudio.com/download) to your local machine.
-5. [Install Git](https://git-scm.com/downloads) to your local machine
-6. Open VS Code (without opening any folder)
-7. Clone your forked repository to your local machine:
-    - From the menu, click **View > Source Control**
-    - Click the **Clone Repository** button
-    - Click **Clone from GitHub**
-    - Sign in to GitHub if prompted
-    - Search for your forked repository (should be named `your-username/cuny-cs-starter`)
-    - Select your repository from the list
-    - Choose a folder location on your computer to store the repository (e.g., create a "CUNY" folder on your Desktop)
-    - VS Code will clone the repository and ask if you want to open it
-    - Click **Open** to start working with your files
-8. You're now ready to start coding!
+1. [Install VS Code](https://code.visualstudio.com/download) to your local machine.
+2. [Install Git](https://git-scm.com/downloads) to your local machine
+3. Open VS Code (without opening any folder)
+4. Add Git credentials to your local machine. Git will use the name and email address you provide to identify who is making changes to the repository. You may use any name and email address that properly identifies you, but it is recommended to use the same email address as used for your GitHub account.
+    1. From the menu, click **View > Terminal**
+    2. Configure your **name** by entering `git config --global user.name "Your Name"` into the terminal and pressing enter.
+    3. Configure your **email address** by entering `git config --global user.email "your.email@example.com"` into the terminal and pressing enter.
+    4. Confirm the Git name and email address has been properly configured by entering `git config user.name` or `git config user.email` into the terminal and pressing enter. The value you entered should be presented back to you.
 
-### Step 3: Working with Your Code and Using Source Control
+### Step 3: Clone Repository to Local Machine
+
+1. From the menu, click **View > Source Control**
+2. Click the **Clone Repository** button
+3. Click **Clone from GitHub**
+4. Sign in to GitHub if prompted
+5. Search for your forked repository (should be named `your-username/cuny-cs-starter`)
+6. Select your repository from the list
+7. Choose a folder location on your computer to store the repository (e.g., create a "CUNY" folder on your Desktop)
+8. VS Code will clone the repository inside of your chosen folder and ask if you want to open it
+9. Click **Open** to start working with your files
+10. You're now ready to start coding!
+
+### Step 4: Working with Your Code and Using Source Control
 
 #### Editing Your Files
 
@@ -68,7 +75,7 @@ These tools are essential for modern web development. Git + GitHub handle versio
 1. Make changes to your files
 2. Save your work using **File > Save**
 3. Open Source Control panel using **View > Source Control**
-4. Write a commit message
+4. Write a commit message summarizing the changes
 5. Click **Commit**
 6. Click **Sync Changes**
 
@@ -76,4 +83,3 @@ These tools are essential for modern web development. Git + GitHub handle versio
 
 - Commit and sync regularly to save your progress
 - Use clear, descriptive commit messages
-- If you see a popup asking to "Configure Git," your instructor will help you set this up
