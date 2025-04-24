@@ -55,10 +55,9 @@ These tools are essential for modern web development. Git + GitHub handle versio
    - You'll see any files you've changed listed under "Changes"
 
 2. Save your work to GitHub:
-   - First, "stage" your changes by hovering over a changed file and clicking the `+` icon
    - Type a short message describing your changes in the "Message" box (e.g., "Completed HTML assignment")
-   - Click the checkmark ✓ (Commit) button above the message box
-   - Click the three dots `...` and select "Push" to send your changes to GitHub
+   - Click the **Commit** button
+   - Click the **Sync Changes** button to send your changes to GitHub
 
 3. Verify your work:
    - Visit your forked repository on GitHub
@@ -69,19 +68,12 @@ These tools are essential for modern web development. Git + GitHub handle versio
 1. Make changes to your files
 2. Save your work using **File > Save**
 3. Open Source Control panel using **View > Source Control**
-4. Stage changes (click `+`)
-5. Write a commit message
-6. Commit changes (click ✓)
-7. Push to GitHub (... > Push)
+4. Write a commit message
+5. Click **Commit**
+6. Click **Sync Changes**
 
 #### Tips
 
-- Commit and push regularly to save your progress
+- Commit and sync regularly to save your progress
 - Use clear, descriptive commit messages
 - If you see a popup asking to "Configure Git," your instructor will help you set this up
-
-### Need Help?
-
-- Your instructor will guide you through these steps
-- GitHub has excellent [documentation for beginners](https://docs.github.com/en/get-started)
-- VS Code has built-in help and tutorials
