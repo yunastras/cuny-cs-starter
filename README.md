@@ -17,30 +17,33 @@ These tools are essential for modern web development. Git + GitHub handle versio
 
 ### Step 1: Set up GitHub Account and Fork Starter Code
 
-1. Create a free account or log in to an existing account at [GitHub.com](https://github.com/).
-2. In the top-right corner of this repository page, click **Fork**.
+1. Create a free account or log in to an existing account at [GitHub.com](https://github.com/)
+2. In the top-right corner of this GitHub repository page, click **Fork**
     - By default, a forked repository has the same name and description as the original repository. You may accept the defaults or change the name/description as desired.
-3. Click **Create fork** to copy the repository to your personal GitHub account.
+3. Click **Create fork** to copy the repository to your personal GitHub account
 
 ### Step 2: Install VS Code and Git to Local Machine
 
-1. [Install VS Code](https://code.visualstudio.com/download) to your local machine.
+1. [Install VS Code](https://code.visualstudio.com/download) to your local machine
 2. [Install Git](https://git-scm.com/downloads) to your local machine
 3. Open VS Code (without opening any folder)
-4. Add Git credentials to your local machine. Git will use the name and email address you provide to identify who is making changes to the repository. You may use any name and email address that properly identifies you, but it is recommended to use the same email address as used for your GitHub account.
-    1. From the menu, click **View > Terminal**
-    2. Configure your **name** by entering `git config --global user.name "Your Name"` into the terminal and pressing enter.
-    3. Configure your **email address** by entering `git config --global user.email "your.email@example.com"` into the terminal and pressing enter.
-    4. Confirm the Git name and email address has been properly configured by entering `git config user.name` or `git config user.email` into the terminal and pressing enter. The value you entered should be presented back to you.
+4. Add Git identity information to your local machine
+    1. From the VS Code menu, click **View > Terminal**
+    2. Confirm Git is properly installed by entering `git --version` into the terminal and pressing enter. You should see "git version 2.49.0" (or similar) presented back to you.
+    3. Configure your Git **name** by entering `git config --global user.name "Your Name"` into the terminal and pressing enter
+    4. Configure your Git **email address** by entering `git config --global user.email "your.email@example.com"` into the terminal and pressing enter
+    5. Confirm the Git name and email address has been properly configured by entering `git config user.name` or `git config user.email` into the terminal and pressing enter. The value you entered should be presented back to you.
+
+*Note: Git will use the name and email address you provide to identify who is making changes to the repository on your local machine. You may use any name and email address that properly identifies you, but it is recommended to use the same email address as used for your GitHub account.*
 
 ### Step 3: Clone Repository to Local Machine
 
-1. From the menu, click **View > Source Control**
+1. From the VS Code menu, click **View > Source Control**
 2. Click the **Clone Repository** button
 3. Click **Clone from GitHub**
 4. Sign in to GitHub if prompted
 5. Search for your forked repository (should be named `your-username/cuny-cs-starter`)
-6. Select your repository from the list
+6. Select your forked repository from the list
 7. Choose a folder location on your computer to store the repository (e.g., create a "CUNY" folder on your Desktop)
 8. VS Code will clone the repository inside of your chosen folder and ask if you want to open it
 9. Click **Open** to start working with your files
@@ -73,7 +76,7 @@ These tools are essential for modern web development. Git + GitHub handle versio
 #### Basic Source Control Flow
 
 1. Make changes to your files
-2. Save your work using **File > Save**
+2. Save your work using **File > Save** or **File > Save All**
 3. Open Source Control panel using **View > Source Control**
 4. Write a commit message summarizing the changes
 5. Click **Commit**
