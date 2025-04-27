@@ -1,6 +1,12 @@
-for (let i = 0; i < 10; i++) {
-    if (i === 5) {
-        break; // Exit loop when i equals 5
+let userData = {
+    "user": {
+        "name": "Carol",
+        "settings": {
+            "theme": "dark",
+            "notifications": true
+        }
     }
-    console.log(i);
-}
+};
+
+// Access nested properties
+console.log(userData.user.settings.theme); // "dark"
