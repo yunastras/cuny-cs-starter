@@ -1,8 +1,10 @@
 # CUNY Summer STEM Academy - Computer Science
 
+## About
+
 This GitHub repository contains student starter files for the Computer Science course offered as part of the City University of New York (CUNY) Summer STEM Program. 
 
-This course will make use of the following:
+This course will make use of the following tools:
 
 - **Git:** A version control system that tracks changes to your code. Think of it as a time machine for your files that lets you save snapshots and undo mistakes.
 - **GitHub:** A website that hosts your Git repositories online. It's like Google Drive for code, letting you share and collaborate with others.
