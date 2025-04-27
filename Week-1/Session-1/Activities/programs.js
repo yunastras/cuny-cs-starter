@@ -1,4 +1,5 @@
 // Week 1 Session 1: First Programs
+// Run this file using Code Runner (right-click > Run Code or Ctrl+Alt+N)
 
 // Program 1: Personal Information
 // TODO: Create variables for your name, age, and city

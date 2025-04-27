@@ -1,4 +1,5 @@
 // Week 1 Session 1: Variables and Data Types Practice
+// Run this file using Code Runner (right-click > Run Code or Ctrl+Alt+N)
 
 // Task 1: Create variables for different data types
 // TODO: Create a string variable for your name

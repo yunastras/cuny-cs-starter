@@ -1,4 +1,5 @@
 // Week 1 Session 1: Operators Practice
+// Run this file using Code Runner (right-click > Run Code or Ctrl+Alt+N)
 
 // Challenge 1: Temperature Converter
 // TODO: Convert Celsius to Fahrenheit
