@@ -5,6 +5,7 @@
 // A: 90-100, B: 80-89, C: 70-79, D: 60-69, F: below 60
 let score = 85;
 // Your code here
+console.log(score)
 
 
 // Challenge 2: Movie Ticket Pricing
@@ -16,6 +17,7 @@ let score = 85;
 let age = 30;
 let isMatinee = true; // true if before 5pm
 // Your code here
+console.log(isMatinee)
 
 
 // Challenge 3: Weather Advisor
