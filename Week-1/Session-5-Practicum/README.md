@@ -30,7 +30,7 @@ List and briefly describe each function in your project:
 ## How to Use
 Provide step-by-step instructions on how to use your application:
 
-1. Run the program using `node project-starter.js`
+1. Run the program using `project-starter.js`
 2. Choose from the menu options
 3. [Add more specific instructions]
 
