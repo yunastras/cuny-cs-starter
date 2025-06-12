@@ -487,7 +487,7 @@ const button = document.getElementById('get-users');
 const usersList = document.getElementById('users-list');
 
 button.addEventListener('click', function() {
-  fetch('https://picsum.photos/200/200')
+  fetch('https://jsonplaceholder.typicode.com/users')
     .then(response => response.json())
     .then(users => {
       // users is an array of user objects
