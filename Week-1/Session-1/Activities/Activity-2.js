@@ -3,7 +3,8 @@
 
 // Task 1: Create variables for different data types
 // TODO: Create a string variable for your name
-
+const fname = "Astra";
+const lname = "Min";
 
 // TODO: Create a number variable for your age
 
